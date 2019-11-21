@@ -19,5 +19,6 @@ function clearMoles() {
 function finish() {
 	clearInterval(part1);
 	clearInterval(part2);
+	clearMoles();
 	document.getElementById('winnerText').innerHTML = '<h1 align="center">You win!</h1>';
 }
